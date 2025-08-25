@@ -18,11 +18,3 @@ for rows in range(1, n+1):
 *           *
 """
 
-
-n=4
-num=1
-for rows in range(1,n+1):
-    for cols in range(1,n+1):
-        print(num,end="   ")
-        num+=1
-    print()
