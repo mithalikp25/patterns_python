@@ -24,8 +24,20 @@ for rows in range(1,n):
     for cols in range(1,n-rows+1):
           print("*",end=" ")
     print()
-    
 
+
+#Method 3
+
+n=5
+
+for rows in range(1,n*2):
+    if rows<=5:
+        for cols in range(1,rows+1):
+             print("*",end=" ")
+    else:
+         for cols in range(1,(n*2)-rows+1):
+              print("*",end=" ")
+    print()
 """
 * 
 * * 

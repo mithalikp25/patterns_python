@@ -18,3 +18,7 @@ for rows in range(1, n+1):
 *           *
 """
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> fb50aa4 (Work in progress before merge)

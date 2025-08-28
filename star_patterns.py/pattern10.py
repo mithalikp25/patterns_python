@@ -48,7 +48,30 @@ for rows in range(1,n+1):
         print("*",end=" ")
     print()
 
+#Method 4
+
+n=5
+
+for rows in range(1,n*2):
+    if rows<=5:
+        for spaces in range(1,n-rows+1):
+            print(" ",end=" ")
+        for cols in range(1,2*rows):
+            print("*",end=" ")
+    else:
+        for spaces in range(1,rows-n+1):
+            print(" ",end=" ")
+        for cols in range(1,(4*n)-(2*rows)):
+            print("*",end=" ")
+    print()
+
+
+
+
+
 """
+
+
                 * 
               * * * 
             * * * * *
