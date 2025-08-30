@@ -38,6 +38,8 @@ for rows in range(1,n*2):
          for cols in range(1,(n*2)-rows+1):
               print("*",end=" ")
     print()
+
+
 """
 * 
 * * 
